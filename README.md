@@ -3,7 +3,7 @@ A Python-based interactive reinforcement learning visualization of Value Iterati
 
 This is assignment #3 for the machine learning course (reinforcement learning module).
 
-Problem Statement (For Students)
+Problem Statement (for Students)
 In this assignment, you will program the decision-making logic of an autonomous delivery robot navigating a hazardous 10x10 warehouse to reach its charging station. The challenge is that the environment is stochastic: the warehouse floor is slippery, so the robot has an 80% chance of moving in its intended direction and a 20% chance of sliding orthogonally into an adjacent cell. Your task is to implement the Value Iteration algorithm to solve this Markov Decision Process (MDP). You must systematically calculate the expected long-term reward for every possible state in the grid so that the robot can safely avoid walls and hazards, and dynamically determine the optimal path to the goal from any starting location.
 
 The Solution & Code Architecture
