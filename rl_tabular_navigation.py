@@ -10,7 +10,7 @@ GRID_HEIGHT = 10
 GRID_WIDTH = 10
 GOAL_STATE = (0, 9)
 
-# Expanded obstacles and hazards using sets
+# ---Expanded obstacles and hazards using sets---
 HAZARD_STATES = {
     (1, 8), (2, 8), (8, 2), (8, 3), (8, 4), 
     (4, 7), (5, 7), (9, 8)
